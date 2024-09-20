@@ -3,24 +3,25 @@ StoryBook is a JavaScript-based web application that allows users to post and sh
 
 Installation
 
-1. Clone the repository:
+1. **Clone the repository: **
+    ``` bash
     git clone https://github.com/sujan-484/Storybook.git
     cd Storybook
 
-2. Install dependencies:
+2.  **Install dependencies: **
+    ```bash
     npm install   
 
-3. Set up environment variable: 
+3. **Set up environment variable: **
+    ```bash
    Create a .env file inside config folder of project and add the following:
-     PORT = 3000
-
+    PORT = 3000
     MONGO_URI = mongodb://127.0.0.1:27017/storybook
-
     NODE_ENV=development
-
     GOOGLE_CLIENT_ID = your-google-client-id
-
     GOOGLE_CLIENT_SECRET = your-google-client-secret
 
-4. Run the application:
+4. **Run the application: **
+    ```bash
     npm start
+
